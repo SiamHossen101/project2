@@ -6,10 +6,13 @@ body{
     background-color: #EEEDE7;
     height: 75px;
     border: none;
+    align-items: center;
+    justify-content: center;
+    
 }
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .left img{
@@ -65,13 +68,14 @@ body{
     border-bottom: 1px solid;
     border-right: 1px solid;
     margin-bottom: 30px;
+    justify-content: center;
+    
 }
 .text1 h1{
     font-size: 40px;
     color: #503217;
 }
 .text1{
-    margin-left: 15%;
     width: 240px;
     margin-top: 40px;
 }
@@ -122,14 +126,15 @@ body{
     text-align: center;
 }
 .item1 img{
-    width: 80px;
-    height: 90px;
-    margin-bottom: 10px;
+    width: 60px;
+    height: 50px;
+    margin-bottom: 5px;
 }
 .item1{
     border: 1px solid #8F7D6A1A;
     padding: 10px;
     text-align: center;
+    
 }
 .item1 h5{
     margin: 0px;
@@ -148,7 +153,7 @@ body{
    align-items: center;
    justify-content: center;
    align-items: center;
-   gap: 10px;
+   gap: 15px;
    margin-bottom: 30px;
 }
 
@@ -200,6 +205,8 @@ body{
 }
 .price {
     padding: 20px;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
     font-family: Arial, sans-serif;
 }
@@ -212,9 +219,10 @@ body{
 
 .price-icon {
     display: flex;
-    gap: 15px; 
+    gap: 30px; 
     flex-wrap: wrap; 
     justify-content: center; 
+    align-items: center;
 }
 
 .price-item {
@@ -303,6 +311,8 @@ body{
 .footer{
     display: flex;
     background-color: #E8E6DE;
+    align-items: center;
+    justify-content: center;
 }
 .location p{
     font-size: 12px;
