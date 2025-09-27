@@ -63,6 +63,8 @@ body{
 }
 .text{
     display: flex;
+    max-width:100%;
+    padding-left:15px;
     background-color: #E8E6DE;
     border-left: 1px solid;
     border-bottom: 1px solid;
