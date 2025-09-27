@@ -28,7 +28,7 @@ body{
 }
 .left{
     display: flex;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 .header ul{
     display: flex;
